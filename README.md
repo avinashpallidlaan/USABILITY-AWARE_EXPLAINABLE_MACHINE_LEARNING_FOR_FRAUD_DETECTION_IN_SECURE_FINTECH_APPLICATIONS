@@ -1,7 +1,7 @@
 This repository contains the code, dataset, and model outputs for the research paper:
 
 Usability-Aware Explainable Machine Learning for Fraud Detection in Secure Fintech Applications
-Accepted at [Springer Conference Networking International Conference on Emerging Trends in Expert Applications & Security, ASIA], 2025.  
+Accepted at [Springer Nature Conference Networking International Conference on Emerging Trends in Expert Applications & Security, ASIA], 2025.  
 Authors: Avinash Pal Lidlaan, Dr. Srinadh Swamy Majeti  
 Anurag University, Hyderabad
 
