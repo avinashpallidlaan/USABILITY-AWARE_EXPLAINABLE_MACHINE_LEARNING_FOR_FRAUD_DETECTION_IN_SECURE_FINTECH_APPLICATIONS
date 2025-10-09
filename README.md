@@ -1,1 +1,27 @@
-Mobile financial applications such as PayPal, Google Pay, and PhonePe host millions of user interactions that often surface subtle indicators of usability difficulties and potential fraud activity. This study proposes an interpretable learning framework that examines these public reviews to uncover early signs of system and security weaknesses. Using a curated dataset of 5,551 verified entries, the approach combines natural language preprocessing with TF-IDF representation and a transparent logistic regression classifier to distinguish between usability, fraud, and positive experiences. Interpretability is embedded through LIME and SHAP, allowing each prediction to be explained in terms of the words and contexts that shaped it. To understand how issues evolve, a recurrent forecasting layer based on long short-term memory networks was applied to predict short-term complaint patterns. The model performed consistently across applications, with overall accuracy near ninety-five percent. Across all platforms, usability concerns appeared most frequently, whereas fraud reports, though comparatively rare, carried higher risk significance. Beyond its numerical performance, the framework offers a practical means for developers and auditors to trace decision logic, monitor user sentiment, and strengthen trust in automated analytics for secure mobile banking.
+This repository contains the code, dataset, and model outputs for the research paper:
+
+Usability-Aware Explainable Machine Learning for Fraud Detection in Secure Fintech Applications
+Accepted at [Springer Conference Networking International Conference on Emerging Trends in Expert Applications & Security, ASIA], 2025.  
+Authors: Avinash Pal Lidlaan, Dr. Srinadh Swamy Majeti  
+Anurag University, Hyderabad
+
+
+ Overview
+
+This project proposes an explainable AI (XAI) framework that classifies user app reviews from fintech platforms (PayPal, Google Pay, PhonePe) into:
+-  Positive Feedback  
+-  Fraud Complaints  
+- Usability Issues  
+
+It also forecasts usability and fraud trends using LSTM and Prophet.
+
+
+Key Components
+
+- TF-IDF + Logistic Regression**: For text classification  
+- LIME & SHAP**: For interpretability and explainability  
+- LSTM Forecasting**: To predict complaint trends  
+- Preprocessing pipeline**: For cleaning raw app reviews
+
+
+
