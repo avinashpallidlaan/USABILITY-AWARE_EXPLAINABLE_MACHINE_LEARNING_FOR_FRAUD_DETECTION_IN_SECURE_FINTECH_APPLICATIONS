@@ -16,11 +16,11 @@ This project proposes an explainable AI (XAI) framework that classifies user app
 
 It also forecasts usability and fraud trends using LSTM and Prophet.
 
----
+
 
 Key Components
 
-- TF-IDF + Logistic Regression**: For text classification  
+- TF-IDF + Logistic Regression: For text classification  
 - LIME & SHAP: For interpretability and explainability  
 - LSTM Forecasting: To predict complaint trends  
 - Preprocessing pipeline: For cleaning raw app reviews
